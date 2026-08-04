@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 export default function Home() {
-  const basePath = "/subhamdutta.github.io";
   return (
     <main className="min-h-screen bg-slate-950 text-white">
 <nav className="fixed top-0 w-full z-50 bg-black/40 backdrop-blur-md">
