@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 export default function Home() {
+  const basePath = "/subhamdutta.github.io";
   return (
     <main className="min-h-screen bg-slate-950 text-white">
 <nav className="fixed top-0 w-full z-50 bg-black/40 backdrop-blur-md">
@@ -20,7 +21,7 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center justify-center">
         
         <Image
-          src="/images/hero.jpeg"
+          src={`${basePath}/images/hero.JPEG`}
           alt="Himalayan fieldwork"
           fill
           className="object-cover opacity-50"
@@ -30,7 +31,7 @@ export default function Home() {
         <div className="relative z-10 max-w-5xl px-6 text-center">
           
           <Image
-            src="/images/profile.jpg"
+            src={`${basePath}/images/profile.jpg`}
             alt="Subham Dutta"
             width={220}
             height={220}
