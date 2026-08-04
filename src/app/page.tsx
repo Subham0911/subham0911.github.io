@@ -20,7 +20,7 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center justify-center">
         
         <Image
-          src={`${basePath}/images/hero.JPEG`}
+          src="/images/hero.JPEG"
           alt="Himalayan fieldwork"
           fill
           className="object-cover opacity-50"
@@ -30,7 +30,7 @@ export default function Home() {
         <div className="relative z-10 max-w-5xl px-6 text-center">
           
           <Image
-            src={`${basePath}/images/profile.jpg`}
+            src="/images/profile.jpg"
             alt="Subham Dutta"
             width={220}
             height={220}
