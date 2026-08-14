@@ -176,8 +176,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-slate-950 py-24 px-6">
-
+      <section
+  id="publications"
+  className="bg-slate-950 py-24 px-6"
+>
   <div className="max-w-6xl mx-auto">
 
     <h2 className="text-4xl font-bold mb-12">
@@ -188,28 +190,134 @@ export default function Home() {
 
       <div className="bg-slate-900 p-6 rounded-2xl">
         <h3 className="font-semibold text-xl mb-2">
-          State and fate of soil organic matter in alpine ecosystems of the Indian Himalayas
+          Planetary Analog Sites in the Indian Subcontinent and the Indian Ocean:
+          Underexplored Environments Suited for Astrobiological and Space Research
         </h3>
 
-        <p className="text-slate-400">
-          Goldschmidt Conference 2026 • Montréal, Canada
+        <p className="text-slate-300 mb-2">
+          Y. Jangir, <strong>S. Dutta</strong>
         </p>
+
+        <p className="text-slate-400">
+          Frontiers in Astronomy and Space Sciences, 2026
+        </p>
+
+        <a
+          href="https://doi.org/10.3389/fspas.2025.1712191"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 hover:underline"
+        >
+          View Article
+        </a>
       </div>
 
       <div className="bg-slate-900 p-6 rounded-2xl">
         <h3 className="font-semibold text-xl mb-2">
-          Additional journal publications coming soon
+          Occurrence, Sources, and Spatial Distribution of Fluoride in the
+          Ganga Alluvial Aquifer, India
         </h3>
 
-        <p className="text-slate-400">
-          Manuscripts currently in preparation.
+        <p className="text-slate-300 mb-2">
+          S. Nizam, T. Acharya, <strong>S. Dutta</strong>, I.S. Sen
         </p>
+
+        <p className="text-slate-400">
+          Environmental Geochemistry and Health, 45(5), 1975–1989 (2023)
+        </p>
+
+        <a
+          href="https://doi.org/10.1007/s10653-022-01319-4"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 hover:underline"
+        >
+          View Article
+        </a>
+      </div>
+
+      <div className="bg-slate-900 p-6 rounded-2xl">
+        <h3 className="font-semibold text-xl mb-2">
+          Geogenic Controls on the High Levels of Uranium in Alluvial Aquifers
+          of the Ganga Basin
+        </h3>
+
+        <p className="text-slate-300 mb-2">
+          S. Nizam, <strong>S. Dutta</strong>, I.S. Sen
+        </p>
+
+        <p className="text-slate-400">
+          Applied Geochemistry, 143, 105374 (2022)
+        </p>
+
+        <a
+          href="https://doi.org/10.1016/j.apgeochem.2022.105374"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 hover:underline"
+        >
+          View Article
+        </a>
+      </div>
+
+    </div>
+
+    <h2 className="text-4xl font-bold mt-20 mb-12">
+      Conference Proceedings
+    </h2>
+
+    <div className="space-y-6">
+
+      <div className="bg-slate-900 p-6 rounded-2xl">
+        <h3 className="font-semibold text-xl mb-2">
+          Isotopic and Biomarker Constraints on Soil Carbon Dynamics Across
+          Degraded, Restored, and Old-Growth Mangroves in the Sundarbans
+        </h3>
+
+        <p className="text-slate-300 mb-2">
+          S. Nizam, <strong>S. Dutta</strong>, I.S. Sen, D. Sachse
+        </p>
+
+        <p className="text-slate-400">
+          European Geosciences Union General Assembly (EGU), 2026
+        </p>
+
+        <a
+          href="https://doi.org/10.5194/egusphere-egu26-6454"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 hover:underline"
+        >
+          View
+        </a>
+      </div>
+
+      <div className="bg-slate-900 p-6 rounded-2xl">
+        <h3 className="font-semibold text-xl mb-2">
+          The state and fate of soil organic matter in alpine ecosystems of the Indian Himalayas
+        </h3>
+
+        <p className="text-slate-300 mb-2">
+          <strong>S. Dutta</strong>, S. Nizam, I.S. Sen, D. Sachse
+        </p>
+
+        <p className="text-slate-400">
+          Goldschmidt 2026
+        </p>
+
+        <a
+          href="https://conf.goldschmidt.info/goldschmidt/2026/meetingapp.cgi/Paper/33764"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 hover:underline"
+        >
+          View
+        </a>
       </div>
 
     </div>
 
   </div>
-
 </section>
 <section className="bg-slate-900 py-20 text-center">
 
